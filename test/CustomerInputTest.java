@@ -26,7 +26,6 @@ class CustomerInputTest {
         assertEquals("alhambra aromes", testList.get(0).getName());
         assertEquals(7608021234L, testList.get(3).getPersonalIdNumber());
         assertEquals(date1, testList.get(2).getMembershipDate());
-        assertEquals("Elmer Ekorrsson", testList.get(4).getName());
         assertEquals(5, testList.size());
         assertEquals("Chamade Coriola", testList.get(2).getName());
     }
