@@ -33,7 +33,7 @@ class CompareTest {
         assertNull(c2);
     }
     @Test
-    public void isCustomerACurrentMember() {
+    public void isCustomerACurrentMemberTest() {
         Customer c1 = testList.get(0);
         Customer c2 = testList.get(2);
         Customer c3 = new Customer("6502136845", "Sten Sture", LocalDate.now().minusYears(1).toString());
